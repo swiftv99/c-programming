@@ -5,6 +5,7 @@
 int main(int argc, char **argv) {
     int intVar = 123;
     float floatVar = 4324.43;
+    float floatVar2 = 4324.43432432;
     double doubleVar = 4324.42e+12;
     char charVar = 'H';
     bool boolVar = true;
@@ -24,5 +25,7 @@ int main(int argc, char **argv) {
     printf("boolVar: %d\n", boolVar);
 
     printf("All variables: %d, %f, %lf, %c, %i\n", intVar, floatVar, doubleVar, charVar, boolVar);
+
+    printf("floatVar2: %.5f\n", floatVar2);
     return 0;
 }
